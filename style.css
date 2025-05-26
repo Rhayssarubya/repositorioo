@@ -63,6 +63,15 @@ footer {
     background-color: #333;
     border-color: #555;
 }
+
+.img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+
 ✨ 4. JavaScript separado
 📄 js/script.js:
 
@@ -88,3 +97,4 @@ document.getElementById("toggle-projects").addEventListener("click", function ()
         projectList.style.display = "none";
     }
 });
+    
